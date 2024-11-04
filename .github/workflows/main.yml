@@ -6,8 +6,8 @@ on:
 jobs:
   build:
     name: Start Building...
-    runs-on: windows-latest
-    timeout-minutes: 9999
+    runs-on: windows-7
+    timeout-minutes: 999999999999999
     
     steps:
       - name: Downloading & Installing Essentials
